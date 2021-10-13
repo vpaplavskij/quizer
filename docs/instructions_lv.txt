@@ -1,0 +1,17 @@
+Lai uzstādītu projektu Jums nepieciešams:
+
+1. No github noklonēt projektu lokāli uz Jūsu datoru
+https://github.com/vpaplavskij/quizer
+
+2. Importēt datubāzi kur atrodas docs mapē ar vārdu 'quizer.zip'
+
+3. Nepieciešams palaist "composer install" komandu no termināļa.
+
+4. src/Config/config.php failā konfigurēt mysql pieslēgšanas parametrus
+
+5. Es izmantoju iebūvētu php serveru | php -S localhost:8000 | 7.4.3 php web development server
+bet droši ies arī ar apache2
+
+php version 7.4.3
+mysql version Ver 8.0.26-0ubuntu0.20.04.2
+Apache/2.4.41 (Ubuntu)

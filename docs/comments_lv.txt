@@ -1,0 +1,23 @@
+Daži komentāri
+
+Projektā izmantoju "nikic/fast-route" trešās puses bibliotēku. Tīri laika ekonomijas pēc.
+Būtība index.php failā tiek inacializēts routes un apstrādāts noteikts ceļš.
+
+Visi ceļi ved uz QuizController.php kur izpildās galvenā loģika
+
+Core mapē atrodas vairāk palīgfunkcijas darbam ar skatu renderēšanu, darbu ar datubāzēm, ienākošo datu validāciju.
+Views mapē atrodas renderējamie skati.
+
+Piebilde par datubāzi:
+
+answers un question tabulās glabājas atbildes-jautājumi, un piesaistīti viņi ir ar starptabulas palīdzību question_answer.
+test un question tabulās glabājas test-jautājumi, un piesaistīti viņi ir ar starptabulas palīdzību test_question.
+progress un results tabulās vairāk fiksējas lietotāju atbildes, jautājumu daudzums, rezultāti
+
+Viss darbības princips apmēram ir šads
+
+lietotājs izvēlas testu -> notiek testa inicializācija -> ielādējas pirmais jautājums -> saglabājam visu nepieciešamo
+-> ielādējas nākamais jautājums -> kad pabeidzam testu, rezultātu apstrādājam -> ielādējam fināla atbildi lietotājam
+
+
+
