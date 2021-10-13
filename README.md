@@ -2,9 +2,9 @@
 Take a quiz!
 
 
-## Instractions
+## Instructions
 
-For instactions in Latvian language visit docs directory
+For instructions in Latvian language visit docs directory
 
 ### 
 Clone project locally
